@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 22px;
+    color: azure;
+    background-color: aliceblue;
+}
+
+#traducao{
+    width: 1000px;
+    height: 200px;
+    background-color: #333;
+}
+
+#submeter{
+    width: 200px; 
+    height:50px; 
+    background-color: cadetblue;
+}
+
+.idioma{
+    width: 200px;
+    height: 30px;
+    
+}
+
+#titulo{
+    width: 1000px;
+    height: 25px;
+    background-color: #555;
+}
+
+.titulo{
+    width: 500px;
+    height: 25px;
+    background-color: #999;
+    float: left;
+}
+#texto{
+    width: 1000px;
+    height: 100px;
+    background-color: #DDD;
+}
+.texto{
+    width: 500px;
+    height: 100px;
+    background-color: #DDD;
+    float: left;
+}
+
+#palavras{
+    width: 1002px;
+    height: 200px;
+    background-color: #333;
+    margin-top: 1px;
+}
+.botao_palavras{
+    width: 500px;
+    height: 50px;
+    background-color: cadetblue;
+    margin-right: 1px;
+    float: left;
+}
+
+.conjunto_palavras{
+    width: 500px;
+    height: 100px;
+    background-color: #DDD;
+    float: left;
+}

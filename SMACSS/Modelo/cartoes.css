@@ -1,0 +1,64 @@
+
+
+.cartao{
+    width: 740px;
+    height: 510px;
+    padding: 5px;
+    margin: 2px;
+    background-color: mediumaquamarine;
+    float: left;
+}
+.baralho{
+    width: 1600px;
+    background-color: beige;
+}
+
+.paragrafo{
+    width: 730px;
+    margin: 0px;
+    margin-top: 0px;
+    background-color: beige;
+}
+.frase{
+    width: 730px;
+    margin: 0px 0px;
+    background-color: aqua;
+    padding: 0px;
+}
+.frase_quebra{
+    width: 730px;
+    height: 5px;
+    margin: 0px 0px;
+    background-color: aqua;
+    padding: 0px;
+    overflow: hidden;
+}
+.frase_traduzida{
+    width: 700px;
+    margin: 2px 0px;
+    padding-left:30px;
+    background-color: aqua;
+    font-size: 12px;
+}
+
+.palavra{
+    float: left;
+    margin: 0 2px 0 2px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.palavra_ingles{
+     font-size: 16px;
+}
+.palavra_portugues{
+    font-size: 12px;
+}
+
+.minelmonico{
+    width: 700px;
+    height: 20px;
+    background-color: blueviolet;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 15px;
+}

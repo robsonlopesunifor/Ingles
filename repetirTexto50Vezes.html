@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="SMACSS/Base/padrao_painel.css" >
+        <link rel="stylesheet" type="text/css" href="SMACSS/Layout/estrutura_painel.css" >
+        <link rel="stylesheet" type="text/css" href="SMACSS/Modelo/estilo_painel.css" >
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+            $.getScript("repetirTexto50Vezes.js");
+        });
+        </script>
+    </head>   
+    <body>
+       <div id="traducao" >
+            <div id="submeter" >Gravar</div>
+            <textarea class="idioma" id="idioma" form="usrform">idioma</textarea>
+            <div id="titulo" >
+                <textarea class="titulo" id="tituloIngles" form="usrform">Titulo Inglês</textarea>
+                <textarea class="titulo" id="tituloPortugues" form="usrform">Titulo Portugues</textarea>
+            </div>
+            <div id="texto">
+                <textarea class="texto" id="textoIngles" form="usrform">Texto Ingles</textarea>
+                <textarea class="texto" id="textoPortugues" form="usrform">Texto Portugues</textarea>
+            </div>
+        </div>
+        <div id="palavras" >
+            <div class="botao_palavras" id="retornarListaDePalavras" >Retornar Lista De Palavras</div>
+            <div class="botao_palavras" id="gravarListaDePalavrasTraduzidas" >gravar Lista De Palavras Traduzidas</div>
+            <textarea class="conjunto_palavras" id="listaDePalavrasNaoTraduzidas" form="usrform"></textarea>
+            <textarea class="conjunto_palavras" id="listaDePalavrasTraduzidas" form="usrform"></textarea>
+        </div>
+    </body>
+</html>

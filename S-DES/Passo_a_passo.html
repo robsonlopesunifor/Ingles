@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+            $.getScript("S-DES.js");
+        });
+        </script>
+    </head>   
+    <body>
+       <div> Palavra: <input type="text" id="palavra" value="0,1,0,1,0,1,0,1"> </div>
+       <div> Chave: <input type="text" id="chave" value="0,1,0,1,0,1,0,1,0,1"> </div>
+       <div> <input type="submit" value="Submit" id="botao"> </div>
+       <div> P10: <input type="text" id="P10" > </div>
+       <div> Shift dos primeiro 5 bits: <input type="text" id="SH0" > </div>
+       <div> Shift dos ultimos 5 bits: <input type="text" id="SH1" > </div>
+       <div> P8: <input type="text" id="P8" > </div>
+       <div> K1: <input type="text" id="K1" > </div>
+       <div> Shift dos primeiro 5 bits: <input type="text" id="SH20" > </div>
+       <div> Shift dos ultimos 5 bits: <input type="text" id="SH21" > </div>
+       <div> P8: <input type="text" id="P82" > </div>
+       <div> K2: <input type="text" id="K2" > </div>
+       <div>______________________________________________________________________</div>
+       <div> IP: <input type="text" id="IP" > </div>
+       <div> Primeiros 4 bits: <input type="text" id="PR40" > </div>
+       <div> Ultimos 4 bits: <input type="text" id="PR41" > </div>
+       <div>______________________________________________________________________</div>
+       <div> E/P: <input type="text" id="EP1" > </div>
+       <div> E/P XOR K1: <input type="text" id="EPXORK1" > </div>
+       <div> P4: <input type="text" id="P40" > </div>
+       <div> L XOR F: <input type="text" id="lxorf0" > </div>
+       <div> (L XOR F) XOR R: <input type="text" id="lxorfr0" > </div>
+       <div> resutado: <input type="text" id="resposta0" > </div>
+       <div>______________________________________________________________________</div>
+       <div> E/P: <input type="text" id="EP2" > </div>
+       <div> E/P XOR K2: <input type="text" id="EPXORK2" > </div>
+       <div> P4: <input type="text" id="P41" > </div>
+       <div> L XOR F: <input type="text" id="lxorf1" > </div>
+       <div> (L XOR F) XOR R: <input type="text" id="lxorfr1" > </div>
+       <div> resutado: <input type="text" id="resposta1" > </div>
+       <div>______________________________________________________________________</div>
+       <div> IP_1: <input type="text" id="IP_1" > </div>
+       <div> resutado: <input type="text" id="resposta2" > </div>
+    
+    </body>
+</html>
